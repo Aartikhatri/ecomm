@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-     "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start npm run build --prefix client",
     "server": "supervisor server/index.js",
     "start": "supervisor --watch server --exec nodeserver/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dot-env": "^0.0.1",
+    "mongoose": "^7.2.0",
+    "razorpay": "^2.8.6",
+    "supervisor": "^0.12.0"
+  }
 }
