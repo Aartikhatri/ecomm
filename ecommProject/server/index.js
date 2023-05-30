@@ -28,10 +28,11 @@ app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json({extended : true }))
 
 // static files
-// console.log(path.join(__dirname , '/../client/build') , 'here');
-app.use(  express.static(path.join(__dirname , '/../client/build')));
-app.use(express.static(path.join(__dirname , '/../client/src')));
+console.log(path.join(__dirname , '/../client/build') , 'here');
 app.use(express.static(path.join(__dirname , '/../client/build/index.html')))
+app.use(express.static(path.join(__dirname , '/../client/build/static')));
+app.use(express.static(path.join(__dirname , '/../client/src')));
+app.use(express.static(path.join(__dirname , '/../client/build')));
 
 // setting for router
 app.use('/' , webRoute )
