@@ -1,8 +1,8 @@
-dotenv.config();
+import dotenv from 'dotenv'
+ dotenv.config();
 import  express  from "express";
 import path ,  {dirname} from 'path'
 import  jwt  from "jsonwebtoken";
-import dotenv from 'dotenv'
 import cors from 'cors'
 import bodyParser from "body-parser";
 import DbConnection from './database/db.js'
@@ -14,7 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 
-const DB_CONNECT = process.env.DB_Url
+const DB_CONNECT = process.env.DB_URL
 const port = process.env.PORT || 8000;
 
 DbConnection(DB_CONNECT)
