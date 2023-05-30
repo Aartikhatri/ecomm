@@ -1,5 +1,6 @@
 export const Books = [
     {
+        id : 'book1' ,
         author: "Chinua Achebe",
         country: "Nigeria",
         imageLink: "https://c8.alamy.com/comp/FYHFCT/the-front-cover-of-things-fall-apart-by-chinua-achebe-photographed-FYHFCT.jpg",
@@ -11,6 +12,7 @@ export const Books = [
         price : 199
     },
     {
+        id : 'book2' ,
         author: "Hans Christian Andersen",
         country: "Denmark",
         imageLink: "https://img.freepik.com/free-vector/watercolor-fairytale-concept_52683-34443.jpg?w=2000",
@@ -22,6 +24,7 @@ export const Books = [
         price : 299
     },
     {
+        id : 'book3' ,
         author: "Dante Alighieri",
         country: "Italy",
         imageLink: "https://media.istockphoto.com/id/491065249/photo/dante-and-the-divine-comedy-duomo-cathedral-basilica-florence-it.jpg?s=612x612&w=0&k=20&c=dwGQWUaPOkF3vqis-q2etOfOFretWvbaBtyK6Sd51VE=",
@@ -33,6 +36,7 @@ export const Books = [
         price : 259
     },
     {
+        id : 'book4' ,
         author: "Unknown",
         country: "Sumer and Akkadian Empire",
         imageLink: "https://c8.alamy.com/comp/MPWMTD/orthostates-depicting-gilgamesh-between-two-minotaur-demigods-holding-up-the-sun-disc-from-tell-hal-MPWMTD.jpg",
@@ -44,6 +48,7 @@ export const Books = [
         price : 449
     },
     {
+        id : 'book5' ,
         author: "Jane Austen",
         country: "United Kingdom",
         imageLink: "https://upload.wikimedia.org/wikipedia/en/0/03/Prideandprejudiceposter.jpg",
@@ -55,6 +60,7 @@ export const Books = [
         price : 699
     },
     {
+        id : 'book6' ,
         author: "Honor\u00e9 de Balzac",
         country: "France",
         imageLink: "https://m.media-amazon.com/images/I/71IqYfrROTL.jpg",
@@ -66,6 +72,7 @@ export const Books = [
         price : 359
     },
     {
+        id : 'book7' ,
         author: "Samuel Beckett",
         country: "Republic of Ireland",
         imageLink: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41Tel-2S6DL.jpg",
@@ -77,6 +84,7 @@ export const Books = [
         price : 559,
     },
     {
+        id : 'book8' ,
         author: "Giovanni Boccaccio",
         country: "Italy",
         imageLink: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Waterhouse_decameron.jpg",
@@ -88,6 +96,7 @@ export const Books = [
         price : 769
     },
     {
+        id : 'book9' ,
         author: "Jorge Luis Borges",
         country: "Argentina",
         imageLink: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621713120i/426504.jpg",
@@ -99,6 +108,7 @@ export const Books = [
         price : 999
     },
     {
+        id : 'book10' ,
         author: "Emily Bront\u00eb",
         country: "United Kingdom",
         imageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Wuthering_Heights_%281939_poster%29.jpg/684px-Wuthering_Heights_%281939_poster%29.jpg",
@@ -110,6 +120,7 @@ export const Books = [
         price : 700
     },
     {
+        id : 'book11' ,
         author: "Albert Camus",
         country: "Algeria, French Empire",
         imageLink: "https://upload.wikimedia.org/wikipedia/commons/7/70/L%27%C3%89tranger_%28Albert_Camus%29.jpg",

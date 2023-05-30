@@ -1,7 +1,8 @@
 import mongoose from 'mongoose' 
 
 const bookSchema = new mongoose.Schema({
-    author : { type : String , trim : true},
+    id : { type : String , unique : true },
+    author : { type : String , trim : true , },
     country : { type : String , trim : true},
     imageLink : { type : String , trim : true},
     language : { type : String , trim : true},
